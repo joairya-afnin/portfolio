@@ -207,3 +207,152 @@ h1 {
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.4);
 }
+
+.navbar a.active {
+  background: #35d5cf;
+  color: #000;
+  border-radius: 20px;
+}
+
+/* GENERAL */
+body.dark-bg {
+  background-color: #1f2025;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #cccccc;
+}
+
+/* TRIANGLES */
+/* ==========================
+   ABOUT PAGE FIXED LAYOUT
+========================== */
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 500px;
+  padding: 80px 120px;
+}
+
+/* LEFT TRIANGLES */
+.triangles {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.triangle.light {
+  border-top: 350px solid #35d5cf;
+  border-right: 300px solid transparent;
+  top: 0;
+  left: 0;
+}
+
+.triangle.dark {
+  border-bottom: 350px solid #1aa8a1;
+  border-right: 300px solid transparent;
+  top: 60px;
+  left: 0;
+}
+
+/* RIGHT TEXT CONTENT */
+.about-content {
+  margin-left: 80px;
+  max-width: 600px;
+}
+
+.about-title {
+  font-size: 38px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about-title span {
+  color: #35d5cf;
+  border-bottom: 2px solid #35d5cf;
+}
+
+/* PARAGRAPH FIX */
+.about-para {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  color: #cccccc;
+}
+
+/* BUTTON + ICONS */
+.about-actions {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-cv {
+  background: #e8fefe;
+  color: #000;
+  padding: 10px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-cv:hover {
+  background: #d2f5f3;
+}
+
+.social-icons img {
+  width: 22px;
+  filter: invert(1);
+}
+
+/* EDUCATION */
+.education-section {
+  margin: 120px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.edu-title {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.edu-title span {
+  color: #35d5cf;
+  border-bottom: 2px solid #35d5cf;
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.edu-card {
+  border: 1px solid #777;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.edu-card h3 {
+  color: #35d5cf;
+  margin-bottom: 10px;
+}
+
+.edu-card.active {
+  border-color: #35d5cf;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
