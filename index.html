@@ -5,13 +5,14 @@
     <title>Joairya Portfolio</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Abhaya+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700&family=Abhaya+Libre&family=Poppins:wght@400;500;600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ================= HEADER ================= -->
+<!-- ====== HEADER ====== -->
 <header class="header">
     <div class="logo">
         <span class="star">✦</span>
@@ -19,15 +20,16 @@
     </div>
 
     <nav class="navbar">
-        <a class="active">Home</a>
+        <a href="index.html"class="active">Home</a>
         <a href="about.html">About Me</a>
-        <a>Projects</a>
-        <a>Achievements</a>
-        <a>Publications</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="publications.html">Publications</a>
     </nav>
 </header>
 
-<!-- ================= HERO SECTION ================= -->
+<!-- ====== HERO SECTION ====== -->
 <section class="hero">
 
     <!-- LEFT TEXT -->
@@ -48,40 +50,46 @@
         </p>
 
         <div class="buttons">
-            <button class="btn contact">Contact me</button>
-            <button class="btn cv">Download CV ⬇</button>
+            
+            <a href="contact.html" class="btn contact">Contact Me</a>
+            <a href="CV.pdf" target="_blank" class="btn cv">
+            Download CV ⬇
+            </a>
+            </a>
         </div>
     </div>
 
     <!-- RIGHT IMAGE -->
-    <div class="hero-image">
+   <div class="hero-image">
 
-        <div class="hexagon">
+    <div class="hex-image">
+        <img src="images/design2.png" class="hex-bg" alt="Hex Design">
+        <img src="images/profile.png" class="profile-img" alt="Joairya Profile">
+    </div>
 
-        <img src="images/profile.png" alt="">
+    <div class="socials">
+        <a href="https://facebook.com/joairya.afnin.890" target="_blank">
+            <img src="images/icons/facebook.png">
+        </a>
+        <a href="https://www.instagram.com/joairyaafnin?igsh=ZmpzOWxqaGo1cm4w" target="_blank">
+            <img src="images/icons/instagram.png">
+        </a>
+        <a href="https://x.com/AfninJoairya" target="_blank">
+            <img src="images/icons/x.png">
+        </a>
+        <a href="https://www.linkedin.com/in/joairya-afnin" target="_blank">
+            <img src="images/icons/linkedin.png">
+        </a>
+        <a href="https://github.com/joairya-afnin" target="_blank">
+            <img src="images/icons/github.png">
+        </a>
+    </div>
 
-        </div>
+</div>
 
-<div class="socials">
-    <a href="https://facebook.com/joairya.afnin.890" target="_blank">
-        <img src="images/icons/facebook.png">
-    </a>
-    <a href="https://instagram.com/" target="_blank">
-        <img src="images/icons/instagram.png">
-    </a>
-    <a href="https://x.com/" target="_blank">
-        <img src="images/icons/x.png">
-    </a>
-    <a href="https://linkedin.com/in/" target="_blank">
-        <img src="images/icons/linkedin.png">
-    </a>
-    <a href="https://github.com/" target="_blank">
-        <img src="images/icons/github.png">
-    </a>
 </div>
 
 </section>
 
-<script src="script.js"></script>
 </body>
 </html>
