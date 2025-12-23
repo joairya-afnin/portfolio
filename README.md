@@ -21,12 +21,7 @@ https://www.figma.com/proto/8i7wdEmS4xuzybb183ODWu/Joairya-s-Portfolio--02-?node
 - CSS
 - JavaScript
 - GitHub Pages
-- 
 - Figma
-
-## 📄 Contact Form & Responses
-Messages submitted through the Contact Me form are recorded in this Google Sheet:  
-[View Responses](https://docs.google.com/spreadsheets/d/1VfdZhed5zkaD2BYJUP3ZGqqKYw21cBZAwhncrWleM78/view?usp=sharing) (View-only)
 
 ## 📌 Note
 This project was created for academic and learning purposes.
