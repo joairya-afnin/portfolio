@@ -80,8 +80,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 70px 100px;
-    gap: 90px;
-    margin-top: 120px;
+    padding-bottom: 140px;
+    gap: 70px;
+    margin-top: 90px;
 }
 
 /* LEFT */
@@ -298,6 +299,11 @@ h1 {
 
 .btn-cv:hover {
   background: #d1f5f3;
+}
+
+.social-icons a {
+  text-decoration: none;
+  outline: none;
 }
 
 
