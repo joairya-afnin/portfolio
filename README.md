@@ -25,10 +25,9 @@ This is my personal portfolio website developed as part of the Software Developm
 - Figma
 
 ## 📥 How to Run Locally
-1) Clone this repository: git clone https://github.com/joairya-afnin/portfolio.git
+1) Clone this repository using git: git clone https://github.com/joairya-afnin/portfolio.git
 2) Open the project folder on your computer.
 3) Open index.html in any web browser to view the portfolio.
-4) Optionally, edit files in VS Code or your preferred code editor.
 
 ## 📬 Contact Form Google Sheet
 [View Contact Form Submissions](https://docs.google.com/spreadsheets/d/1VfdZhed5zkaD2BYJUP3ZGqqKYw21cBZAwhncrWleM78/edit?usp=sharing)
